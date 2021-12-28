@@ -789,15 +789,20 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
+    
 }
 
 .team .team-item {
     margin-bottom: 30px;
+    
+    
 }
 
 .team .team-img {
     position: relative;
+    
 }
+
 
 .team .team-img::after {
     position: absolute;
@@ -807,18 +812,21 @@ a:focus {
     bottom: 15px;
     left: 15px;
     background: transparent;
-    border: 1px solid #F6F6F7;
+    /* border: 1px solid #F6F6F7; */
     transition: .3s;
     z-index: 1;
+
 }
 
+
 .team .team-img img {
-    width: 100%;
+    width: 250px;
+    height: 250px;
 }
 
 .team .team-text {
     position: relative;
-    margin: -60px 15px 0 15px;
+    margin: 5px 15px 0 15px;
     padding: 30px 15px;
     text-align: center;
     background: #F6F6F7;
